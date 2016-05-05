@@ -1,0 +1,328 @@
+* {
+	margin: 0 auto;
+}
+
+html, body {
+	font-family: helvetica, sans-serif;
+
+}
+
+.content {
+	width: 990px;
+	
+
+}
+
+/*************
+Header & Nav
+ ************/
+
+.header-container {
+	background-color: #4DBC99;
+    position: relative;
+    height: 95px;
+}
+
+nav {
+	float: right;
+	position: relative;
+	top: 45px;
+	right: 55px;
+	padding-right: 60px;
+}
+
+h1 {
+	position: absolute;
+	left: 115px;
+	top: 30px;
+	color: white;
+}
+
+nav li {
+   float: left;
+   display: inline-block;
+   padding-left: 15px;
+
+}
+
+a {
+	text-decoration: none;
+	color: #EBFBFF;
+	font-weight: bold;
+	letter-spacing: .5px;
+}
+
+/*************
+ clearfix
+ ************/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.cf {
+    *zoom: 1;
+}
+
+/*************
+Content
+ ************/
+
+.content {
+
+/*	background-color: #707140;*/
+}
+
+/*************
+Main Slideshow
+ ************/
+ .main-slideshow {
+    text-align: center;
+    height: 620px;
+   border-bottom: 3px solid #5A615D;
+ }
+#main-slide img {
+    width: 990px;
+	height: 520px;
+ }
+ 
+ .main-headline {
+   position: relative;
+  
+  /* background-color: rgba(49, 52, 53, 0.71);*/
+   width: 400px;
+   padding: 20px;
+   border-radius: 40px;
+   left: 295px;
+   bottom: 170px;
+ }
+#white_bg {
+	background-color: rgba(255, 255, 255, 0.8);
+		padding: 8px;
+		text-align: left;
+		font-size: 39px;
+		border-radius:  10px 0px 0px 2px;;
+}
+#white_sm {
+	background-color:rgba(255, 255, 255, 0.8);
+	font-size: 26px;
+     width: 340px;
+     position: relative;
+     left: 30px;
+    
+	padding-bottom: 5px;
+	border-radius: 0px 0px 0px 2px;;
+}
+
+
+ h2, h3, p {
+ 	color: black;
+ }
+
+/*************
+  Articles
+ ************/
+
+.container-headline p {
+	font-size: 46px;
+	text-align: center;
+	font-weight: bold;
+	color: #43AB81;
+	padding-bottom: 55px;
+	border-top: 3px solid #5A615D;
+
+}
+
+
+
+ .container {
+ 	/*background-color: #7D7D7D;*/
+ 	padding: 30px;
+ 	padding-bottom: 100px;
+
+ 	
+
+ }
+
+.article1 {
+	width: 300px;
+	float: right;
+	position: relative;
+	right: 110px;
+
+
+}
+
+ .article1 img{
+ 	width: 440px;
+ 	border-radius: 50px;
+ }
+
+ .article2 {
+	width: 300px;
+	/*padding-right:710px;*/
+	position: relative;
+	right: 345px;
+}
+
+ .article2 img{
+ 	width: 440px;
+ 	border-radius: 50px;
+ }
+
+hgroup {
+	background-color: white;
+
+}
+
+
+.article-headline {
+	position: relative;
+	left: 90px;
+}
+
+
+/*************
+  Blog Page
+ ************/
+
+.content-blog {
+	
+	width: 990px;
+	height: 900px;
+	
+
+}
+
+
+.blog-page h2 {
+    font-size: 76px;
+    position: relative;
+    left: 650px;
+    top: 20px;
+
+
+}
+
+
+.featured-articles {
+	/*text-align: center;*/
+	/*position: relative;
+	font-family: helvetica, sans-serif;*/
+	margin-top: 95px;
+	width: 960px;
+	height: 700px;
+
+
+
+}
+
+
+
+
+
+
+.headline_2 {
+	float: right;
+	position: relative;
+	bottom: 0px;
+	padding-bottom: 70px;
+}
+
+.words_2 {
+	float: left;
+	text-align: left;
+	width: 300px;
+}
+
+.second_article {
+	width: 600px;
+	border-radius: 50px;
+
+}
+
+.first_article {
+	width: 600px;
+	border-radius: 50px;
+
+}
+
+/**/
+
+
+/*************
+  Route page
+ ************/
+
+
+.route-wrapper {
+	width: 960px;
+
+}
+.expand_banner {
+	width: 990px;
+	height: 200px;
+	position: relative;
+	top: 35px;
+}
+
+map {
+	padding: 200px;
+
+}
+.map {
+	padding-top: 80px; 
+	padding-bottom: 90px;
+}
+
+/*************
+  about page
+ ************/
+
+.author {
+	font-size: 79px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.author-pic {
+	border-radius: 100%;
+
+	text-align: center;
+	width: 500px;
+	height: 500px;
+
+}
+
+
+
+
+
+/*************
+  Footer
+ ************/
+
+footer {
+	background-color: #4DBC99;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding: 10px;
+  
+    height: 80px;
+
+}
+
+
+
+
+
+
+
