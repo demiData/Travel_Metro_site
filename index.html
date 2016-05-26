@@ -2,15 +2,18 @@
 <html>
 	<head>
 		<title>Explore_Metro</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/styles.css">
-
+		 
+     
 	</head>
 	<body>
 	 <div class="wrapper">
 	  <div class="header-container cf" >
 		<header class="main-nav">
-			
-			<h1 id="logo" >Logo</h1>
+			<i class="fa fa-bars nav-toggle" aria-hidden="true"></i>
+			<div class="logo" id="logo"><h1>Logo</h1></div>
 			<nav>
 			     
 				<ul>
@@ -22,7 +25,7 @@
 			</nav>
 		</header>
 	  </div>
-	 <div class="content">
+	<!--  <div class="content">
 	       <div class="main-slideshow">
             	<figure id="main-slide" >
 
@@ -32,8 +35,52 @@
             		<p id="white_sm">Travel with Metro Goldline</p>
             		</div>
             	</figure>
-            </div>
-	 	
+            </div> -->
+	 	  
+
+<div id="hero">
+			
+		      <div id="next">&rang;</div>
+		      <div id="prev">&lang;</div>
+		      <div id="slider">
+		        
+		        <div class="items">
+				     <div class="img">
+		            	<img src="img/mglEJO236.jpg" width="960" height="580" alt="">
+		             </div>
+		         <div class="info">
+		         	<h2>Adventure Goldline</h2>
+		         	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, laboriosam. <a href="#">Read More!</a></p>
+		         </div>
+		       
+		        </div>
+
+		         <div class="items">
+				     <div class="img">
+		            	<img src="img/goldline.jpg" width="960" height="580" alt="">
+		             </div>
+		         <div class="info">
+		         	<h2>okay!</h2>
+		         	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, laboriosam. <a href="#">Read More!</a></p>
+		         </div>
+		       
+		        </div>
+
+		         <div class="items">
+				     <div class="img">
+		            	<img src="img/maxresdefault.jpg" width="960" height="580" alt="">
+		             </div>
+		         <div class="info">
+		         	<h2>yay</h2>
+		         	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, laboriosam. <a href="#">Read More!</a></p>
+		         </div>
+		       
+		        </div>
+		        
+			  </div>
+</div>
+
+
 	 <div class="container">
 		<div class="container-headline">
 			<p>Get out and Explore!</p>
@@ -41,40 +88,50 @@
 
 	   <div class="article1">
 	 	<article>
-	 	  <figure>
+	 	 <a href="blog_2.html">
+	 	  <figure class="cover article-item">
 	 		<img src="img/dsc_9594.jpg" width="492" height="328" alt="">
-	 	    <figcaption></figcaption> 
+	 	    <figcaption class="img-title"><h5>Something to hover</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est delectus suscipit, aliquam illo quas ipsum eos non porro exercitationem quibusdam neque esse incidunt officia reiciendis pariatur vero. Magnam, hic, ea.</p>
+	 	    </figcaption> 
 	 	  </figure>
-	 	 <div class="article-headline">
+	 	  </a>
+	 	<!--  <div class="article-headline">
 	 	  <hgroup>
-	 	  	<h2>Heading 2</h2>
+	 	  	<h2>Heading 6</h2>
 	 	  	<h3>Heading 3</h3>
 	 	   </hgroup>
 	 	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est delectus suscipit, aliquam illo quas ipsum eos non porro exercitationem quibusdam neque esse incidunt officia reiciendis pariatur vero. Magnam, hic, ea.</p>
-	 	  </div>
+	 	  </div> -->
 	 	 
 	 	</article>
 	   </div>
 	 	
 	   <div class="article2">
 	 	<article>
-	 		<figure>
+	 	   <a href="blog_1.html">
+	 		<figure class="cover article-item">
 	 		<img src="img/goldline.jpg" width="492" height="328" alt="">
-	 	    <figcaption></figcaption> 
-	 	  </figure>
-	 	  <div class="article-headline 1">
+	 	    <figcaption class="img-title"><h5>Something to hover</h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est delectus suscipit, aliquam illo quas ipsum eos non porro exercitationem quibusdam neque esse incidunt officia reiciendis pariatur vero. Magnam, hic, ea.</p></figcaption> 
+	 	  </figure></a>
+	 	 <!--  <div class="article-headline 1">
 	 	  <hgroup>
 	 	  	<h2>Heading 2</h2>
 	 	  	<h3>Heading 3</h3>
 	 	  </hgroup>
 	 	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est delectus suscipit, aliquam illo quas ipsum eos non porro exercitationem quibusdam neque esse incidunt officia reiciendis pariatur vero. Magnam, hic, ea.</p>
-	 	  </div>
+	 	  </div> -->
 	 	  
 	 	</article>
 	  </div>
 	 </div>	
 	 </div>
+
 		<footer class="cf" >Created by Demi Minjarez</footer>
 	 </div>
+	<script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/jquery.cycle.all.js"></script>
+    <script src="js/app.js"></script>
+
 	</body>
 </html>
