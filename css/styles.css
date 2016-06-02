@@ -1,54 +1,71 @@
 * {
 	margin: 0 auto;
+	padding: 0;
 }
 
 html, body {
 	font-family: helvetica, sans-serif;
+     max-width: 100%;
+    overflow-x: hidden;
 
 }
 
-.content {
-	width: 990px;
-	
 
-}
+
+
 
 /*************
 Header & Nav
  ************/
 
 .header-container {
-	background-color: #4DBC99;
+	/*background-color: #4DBC99;*/
+    background-color: #2E3435;
     position: relative;
     height: 95px;
+
+   
 }
 
 nav {
 	float: right;
-	position: relative;
-	top: 45px;
-	right: 55px;
-	padding-right: 60px;
+	/*position: relative;*/
+	/*top: 45px;
+	right: 55px;*/
+	padding-right: 50px;
 }
 
+.logo img{
+	position: absolute;
+	left: 90px;
+	top: -20px;
+	/*max-width: 100%;*/
+	width: 210px;
+	height: 210px;
+	z-index: 999;
+
+
+}
 .logo h1 {
 	position: absolute;
-	left: 115px;
+	left: 90px;
 	top: 30px;
 	color: white;
+	border-left: 1px solid black;
+	height: 3000px;
 }
 
 nav li {
    float: left;
    display: inline-block;
-   padding-left: 15px;
+   padding-left: 5px;
 
 }
 
 a {
 	text-decoration: none;
 	color: #EBFBFF;
-	font-weight: bold;
+	
 	letter-spacing: .5px;
 }
 
@@ -79,23 +96,36 @@ Content
 /*	background-color: #707140;*/
 }
 
-/*************
+
+ /*************
 Main Slideshow
  ************/
 
+
+    
 #hero {
-      width: 960px;
- 	  height: 580px;
- 	  margin: 50px auto;
- 	  position: relative;
-    	}
+	  /*width: 960px;
+      height: 580px;*/
+      background-color: black;
+      width: 100%;
+      max-width: 100%;
+      position: relative;
+      top: -50px;
+
+      margin: 50px auto;
+      display: block;
+      }
+
+.img img{max-width: 100%;}
 
     #slider {
+    	max-width: 100%;
+         width:100%;
     	position: absolute;
     	overflow: hidden;
-    	width: 960px;
-    	height: 580px;
+    	
     }
+
     #next {
     	text-align: center;
     	width: 50px;
@@ -175,46 +205,7 @@ Main Slideshow
 			margin-top: -15px;
 		}
 
-/*************
-Main Slideshow
- ************/
- .main-slideshow {
-    text-align: center;
-    height: 620px;
-   border-bottom: 3px solid #5A615D;
- }
-#main-slide img {
-    width: 990px;
-	height: 520px;
- }
- 
- .main-headline {
-   position: relative;
-  
-  /* background-color: rgba(49, 52, 53, 0.71);*/
-   width: 400px;
-   padding: 20px;
-   border-radius: 40px;
-   left: 295px;
-   bottom: 170px;
- }
-#white_bg {
-	background-color: rgba(255, 255, 255, 0.8);
-		padding: 8px;
-		text-align: left;
-		font-size: 39px;
-		border-radius:  10px 0px 0px 2px;;
-}
-#white_sm {
-	background-color:rgba(255, 255, 255, 0.8);
-	font-size: 26px;
-     width: 340px;
-     position: relative;
-     left: 30px;
-    
-	padding-bottom: 5px;
-	border-radius: 0px 0px 0px 2px;;
-}
+
 
 
  h2, h3, p {
@@ -224,33 +215,41 @@ Main Slideshow
 /*************
   Articles
  ************/
+.divide {
+	border: 1px solid gray;
+	position: relative;
+	bottom: 100px
+}
 
 .container-headline p {
-	font-size: 46px;
-	text-align: center;
+	font-size: 52px;
+	text-align: right;
+
 	font-weight: bold;
-	color: #43AB81;
+	color: #3FDFA0;
 	padding-bottom: 55px;
-	border-top: 3px solid #5A615D;
+	/*border-top: 3px solid #5A615D;*/
 
 }
 
 
 
- .container {
- 	/*background-color: #7D7D7D;*/
+ .container-article {
+ 	
  	padding: 30px;
  	padding-bottom: 100px;
-
+    position: relative;
+    bottom: 75px;
+    width: 960px;
  	
-
+    
  }
 
 .article1 {
 	width: 300px;
 	float: right;
 	position: relative;
-	right: 110px;
+	right: 138px;
 
 
 }
@@ -262,13 +261,15 @@ Main Slideshow
 
  .article2 {
 	width: 300px;
+	/*max-width: 100%;*/
 	/*padding-right:710px;*/
 	position: relative;
-	right: 345px;
+	right:330px;
 }
 
  .article2 img{
  	width: 440px;
+ /*	max-width: 100%;*/
  	border-radius: 50px;
  }
 
@@ -461,12 +462,13 @@ br {
  ************/
 
 footer {
-	background-color: #4DBC99;
+	/*background-color: #4DBC99;*/
+	background-color: #232728;
     text-align: center;
     color: white;
     position: relative;
     padding: 10px;
-  
+    width: 100%;
     height: 80px;
 
 }
@@ -477,11 +479,13 @@ footer {
  ************/
 
 
-#hero {
+    #hero {
 				width: 960px;
 				height: 580px;
 				position: relative;
+
 				margin: 50px auto;
+			
 			}
 
 
@@ -598,7 +602,7 @@ footer {
     margin: 0;
     /*height: 70%;*/
 
-   width: 440px;
+    width: 440px;
     text-align: center;
     /*opacity: 0;*/
     display: none; /* comment this out for CSS hover */
@@ -631,28 +635,115 @@ footer {
 /*************
  @media queries
  ************/
-/*
- @media screen and (min-width: 480px) {
-    body {
-        background-color: lightgreen;
-    }
-}*/
 
 
-@media only screen and (max-width: 750px)  {
-
-
-body {
-  background-color: lightgreen;
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #232728;
+   position: relative;
+   top: 37px;
 
 }
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+   /* padding: 15px 15px;*/
+    text-decoration: none;
+    /*transition: 0.3s;
+*/  
+
+	transition: all .5s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {color: #3FDFA0;}
+/*rgba(160,02,0,0.5);*/
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+
+
+
+/*************
+ @media queries
+ ************/
+
+
+
+
+@media only screen and (max-width: 600px)   {
+
+/*.wrapper {
+	min-height: calc(100vh - 89px);
+}*/
+
+ #slider {
+    	max-width: 100%;
+         width:100%;
+    	position: absolute;
+    	overflow: hidden;
+    	
+    }
+
+body {
+  background-color: #D5E6EE;
+
+}
+
+ .logo {
+ 	position: relative;
+ 	right: 74px;
+ }
+
+  .topnav {
+  	position: relative;
+  	left: 40px;
+  }	
+
+  .items img {max-width: 100%;}
+
+  ul.topnav li:not(:first-child) {display: none;}
+
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+
+  ul.topnav.responsive {position: relative;}
+
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+
 .main-nav {
    position: fixed;
    top: 0;
    left: 0;
    width: 100%;
    height: 100%;
-   background: #222;
+/*   background: #222;*/
    text-align: center;
    /*transform: translateX(-100%);
    transition: transform 0.6s ease;*/
@@ -672,6 +763,22 @@ body {
 	cursor: pointer;
 }
 
+#hero {
+      width: 50%;
+ 	  height: 50%;
+ 	  margin: 50px auto;
+ 	  position: relative;
+ 	  top: 50px;
+ 	  right: 110px;
+
+    	}
+
+#hero img {
+      width: 50%;
+ 	  height: 50%;
+ 	  
+    	}
+ 
  nav {
 
 
@@ -683,14 +790,86 @@ body {
 }
 
 
-nav li {
-   
-   
+/*************
+  Articles
+ ************/
+
+
+.container-headline p {
+	font-size: 52px;
+	text-align: right;
+
+	font-weight: bold;
+	color: #3FDFA0;
+	padding-bottom: 55px;
+	/*border-top: 3px solid #5A615D;*/
 
 }
+
+
+
+ .container-article {
+ 	
+ 	padding: 30px;
+ 	padding-bottom: 100px;
+    position: relative;
+    bottom: 75px;
+    width: 960px;
+ 	
+    
+ }
+
+.article1 {
+	/*width: 300px;*/
+	max-width: 100%;
+	
+	/*position: relative;
+	right: 138px;*/
+    position: relative;
+    top: 20px;
+
 }
 
-@media only screen and (min-width: 769px) {}
+ .article1 img{
+ 	max-width: 100%;
+ 	/*width: 440px;*/
+ 	border-radius: 50px;
+ }
+
+ .article2 {
+	max-width: 100%;
+	/*max-width: 100%;*/
+	/*padding-right:710px;*/
+/*	position: relative;
+	right:330px;*/
+}
+
+ .article2 img{
+ 	width: 440px;
+ /*	max-width: 100%;*/
+ 	border-radius: 50px;
+ 	position: relative;
+ 	 top: 90px;
+ }
+
+hgroup {
+	background-color: white;
+
+}
+
+
+.article-headline {
+	position: relative;
+	left: 90px;
+}
+
+
+
+}
+
+
+
+@media only screen and (min-width: px) {}
 
 
 
