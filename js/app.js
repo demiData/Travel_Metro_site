@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
  
      // Index.html Img Slider  
@@ -22,5 +23,14 @@ $(document).ready(function() {
       $(".topnav").toggleClass("responsive");
     });
 
+     
+     $('#i-nav').click(function(){
+
+      $(this).toggleClass('open');
+
+     $('ul').toggleClass('show');
+     
+
+   });
 
 });
